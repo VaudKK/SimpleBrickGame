@@ -67,12 +67,12 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     }
 
     private void draw(Graphics g){
-        g.setColor(Color.GREEN);
+        g.setColor(Color.ORANGE);
 
         //Draw bar
         g.fillRect(barX,barY,BAR_LENGTH * UNIT_SIZE,UNIT_SIZE);
 
-        g.setColor(Color.ORANGE);
+        g.setColor(Color.RED);
 
         //Draw circle
         g.fillOval(ballX,ballY,BALL_WIDTH,BALL_HEIGHT);
